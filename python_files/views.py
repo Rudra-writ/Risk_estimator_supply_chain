@@ -121,9 +121,9 @@ def first_page(request):
                         time.sleep(5)
 
                         username = driver.find_element("id", "username")
-                        username.send_keys("rudrawrit.majumdar@stud.eah-jena.de") 
+                        username.send_keys("ID") 
                         pword = driver.find_element("id","password")
-                        pword.send_keys("abc#ABC0")
+                        pword.send_keys("Password")
                         driver.find_element("xpath","//button[@type='submit']").click()
                 
                         print(URL)
